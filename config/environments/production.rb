@@ -117,4 +117,5 @@ Rails.application.configure do
   # config.active_record.database_selector = { delay: 2.seconds }
   # config.active_record.database_resolver = ActiveRecord::Middleware::DatabaseSelector::Resolver
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
+  config.hosts << "242763b1c7fb4241acd809c394b9b137.vfs.cloud9.us-east-1.amazonaws.com"
 end
